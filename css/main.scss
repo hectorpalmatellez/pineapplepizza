@@ -1,5 +1,10 @@
 @import 'node_modules/canonical.css/canonical';
 
-img {
-  float: left;
+body {
+  background: {
+    color: #999;
+    image: url('../images/middleparrot.gif');
+    repeat: repeat-y;
+  }
+  transform: translateX(-50%);
 }
